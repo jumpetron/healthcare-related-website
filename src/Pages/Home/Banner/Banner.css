@@ -1,0 +1,12 @@
+.banner-img {
+  background-image: url('../../../images/header.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.banner{
+    padding: 150px 0px;
+}
+

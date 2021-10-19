@@ -1,0 +1,36 @@
+.contact{
+    margin-top: 99px;
+    margin-bottom: 164px;
+}
+.contact-box{
+    width: 377px;
+    background-color: #14101F;
+    color: #fff;
+    padding: 80px 38px;
+    border-radius: 10px;
+    box-shadow: 9px 5px 13px -2px rgba(0,0,0,0.64);
+}
+.contact-box img{
+    width: 100px;
+}
+
+.contact-header{
+    width: 38%;
+    margin-bottom: 52px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-area{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .contact-box{
+        margin: 20px 10px;
+    }
+
+    .contact-header{
+        width: 438px;
+    }
+}

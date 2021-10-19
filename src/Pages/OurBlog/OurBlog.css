@@ -1,0 +1,14 @@
+.blog-area{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.our-blog-header{
+    text-align: center;
+    height: 350px;
+    padding: 131px 20px;
+    background-color: #14101F;
+    color: #fff;
+    margin-bottom: 40px;
+}

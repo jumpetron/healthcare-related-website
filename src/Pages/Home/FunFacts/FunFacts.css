@@ -1,0 +1,53 @@
+.funfact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    padding: 55px 291px;
+    background-color: #428CF4;
+    color: #fff;
+    opacity: 70%;
+    margin: 108px 0px;
+}
+
+.experience{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-gap: 20px; */
+    padding: 30px 40px;
+}
+
+.single-fact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.single-fact-one{
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.single-fact-two{
+    border-bottom: 1px solid #fff;
+}
+
+.single-fact-three{
+    border-right: 1px solid #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .funfact{
+        display: flex;
+        flex-direction: column;
+    }
+    .over-fun{
+        width: 400px;
+    }
+
+    .single-fact{
+        padding: 15px 65px;
+    }
+}

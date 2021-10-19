@@ -1,0 +1,17 @@
+.footer{
+    width: 90%;
+    margin-top: 128px;
+}
+.footer-single{
+    width: 272px;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-single{
+        margin-top: 30px;
+    }
+}

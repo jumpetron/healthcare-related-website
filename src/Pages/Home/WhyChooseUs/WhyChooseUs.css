@@ -1,0 +1,32 @@
+.choose-area img{
+    width: 50px;
+}
+.choose-section{
+    margin: 125px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.choose-area-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (max-width: 600px) {
+    .choose-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .choose-area-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .choose-area{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px 70px;
+    }
+}

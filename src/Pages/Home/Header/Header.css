@@ -1,0 +1,19 @@
+.header img{
+    width: 150px;
+    height: 30px;
+}
+
+.custom-btn{
+    background-color: #28374B !important;
+    color: #fff !important;
+    outline: none !important;
+}
+
+.custom-btn:hover{
+    background-color: tomato !important;
+    color: #fff !important;
+    outline: none !important;
+}
+.nav-item{
+    text-decoration: none;
+}

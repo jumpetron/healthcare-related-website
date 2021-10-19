@@ -1,0 +1,17 @@
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.service{
+    margin: 73px 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .service-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+}

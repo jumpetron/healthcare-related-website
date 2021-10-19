@@ -1,0 +1,99 @@
+[
+  {
+    "id": "1",
+    "title": "Dr. Lloyd Wilson",
+    "image": "./dr-images/dr-1.png",
+    "department": "NEUROLOGIST",
+    "role": "I am an ambitious workaholic, but apart from that, pretty simple person."
+  },
+  {
+    "id": "2",
+    "title": "Dr. Rachel Parker",
+    "image": "./dr-images/dr-2.png",
+    "department": "OPHTHALMOLOGIST",
+    "role": "I am an ambitious workaholic, but apart from that, pretty simple person."
+  },
+  {
+    "id": "3",
+    "title": "Dr. Ian Smith",
+    "image": "./dr-images/dr-3.png",
+    "department": "DENTIST",
+    "role": "I am an ambitious workaholic, but apart from that, pretty simple person."
+  },
+  {
+    "id": "4",
+    "title": "Dr. Alicia Henderson",
+    "image": "./dr-images/dr-4.png",
+    "department": "PEDIATRICIAN",
+    "role": "I am an ambitious workaholic, but apart from that, pretty simple person."
+  },
+  {
+    "id": "4",
+    "title": "Dr. Alicia Henderson",
+    "image": "./dr-images/dr-4.png",
+    "department": "PEDIATRICIAN",
+    "role": "I am an ambitious workaholic, but apart from that, pretty simple person."
+  },
+  {
+    "id": "4",
+    "title": "Dr. Alicia Henderson",
+    "image": "./dr-images/dr-4.png",
+    "department": "PEDIATRICIAN",
+    "role": "I am an ambitious workaholic, but apart from that, pretty simple person."
+  },
+  {
+    "id": "4",
+    "title": "Dr. Alicia Henderson",
+    "image": "./dr-images/dr-4.png",
+    "department": "PEDIATRICIAN",
+    "role": "I am an ambitious workaholic, but apart from that, pretty simple person."
+  },
+  {
+    "id": "4",
+    "title": "Dr. Alicia Henderson",
+    "image": "./dr-images/dr-4.png",
+    "department": "PEDIATRICIAN",
+    "role": "I am an ambitious workaholic, but apart from that, pretty simple person."
+  },{
+    "id": "4",
+    "title": "Dr. Alicia Henderson",
+    "image": "./dr-images/dr-4.png",
+    "department": "PEDIATRICIAN",
+    "role": "I am an ambitious workaholic, but apart from that, pretty simple person."
+  },
+  {
+    "id": "4",
+    "title": "Dr. Alicia Henderson",
+    "image": "./dr-images/dr-4.png",
+    "department": "PEDIATRICIAN",
+    "role": "I am an ambitious workaholic, but apart from that, pretty simple person."
+  },
+  {
+    "id": "4",
+    "title": "Dr. Alicia Henderson",
+    "image": "./dr-images/dr-4.png",
+    "department": "PEDIATRICIAN",
+    "role": "I am an ambitious workaholic, but apart from that, pretty simple person."
+  },
+  {
+    "id": "4",
+    "title": "Dr. Alicia Henderson",
+    "image": "./dr-images/dr-4.png",
+    "department": "PEDIATRICIAN",
+    "role": "I am an ambitious workaholic, but apart from that, pretty simple person."
+  },
+  {
+    "id": "4",
+    "title": "Dr. Alicia Henderson",
+    "image": "./dr-images/dr-4.png",
+    "department": "PEDIATRICIAN",
+    "role": "I am an ambitious workaholic, but apart from that, pretty simple person."
+  },
+  {
+    "id": "4",
+    "title": "Dr. Alicia Henderson",
+    "image": "./dr-images/dr-4.png",
+    "department": "PEDIATRICIAN",
+    "role": "I am an ambitious workaholic, but apart from that, pretty simple person."
+  }
+]
