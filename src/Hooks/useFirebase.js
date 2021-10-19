@@ -18,6 +18,7 @@ const useFirebase = () => {
     const [email, setEmail] = useState({});
     const [password, setPassword] = useState({});
     const [isLoading, setIsLoading] = useState(true)
+    const [error, setError] = useState('')
 
     const auth = getAuth();
 
@@ -30,12 +31,16 @@ const useFirebase = () => {
     };
 
     const handleRegistration = (e) => {
-      console.log(email, password);
+        e.preventDefault();
+      if(password.length < 6){
+          setError('Plase Password Must be at least 6 charecters long')
+          return;
+      }
       createUserWithEmailAndPassword(auth, email, password).then((result) => {
         const user = result.user;
         console.log(user);
       });
-      e.preventDefault();
+      
     };
 
     const LoginProcess = (e) => {
@@ -91,6 +96,7 @@ const useFirebase = () => {
       handlePasswordChange,
       handleRegistration,
       LoginProcess,
+      error
     };
 }
 
