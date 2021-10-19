@@ -21,3 +21,13 @@
     justify-content: space-evenly;
     margin-top: 50px;
 }
+
+@media only screen and (max-width: 600px) {
+    .apply-area{
+        display: flex;
+        flex-direction: column;
+    }
+    .apply-box{
+        margin: 30px -29px;
+    }
+}
