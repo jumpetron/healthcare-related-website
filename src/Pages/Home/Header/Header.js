@@ -1,10 +1,13 @@
+import userEvent from '@testing-library/user-event';
 import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
+import useAuth from '../../../Hooks/useAuth';
 import logo from './../../../logo.png'
 import './Header.css'
 
 const Header = () => {
+  const {user, logOut} = useAuth();
     return (
       <div>
         <Navbar bg="light" expand="lg" className="fixed-top">
@@ -88,19 +91,37 @@ const Header = () => {
                   </NavLink>
                 </Nav.Link>
                 <div>
-                  <Link to="/login">
-                    <Button
-                      className="btn mx-2 custom-btn"
-                      variant="outline-none"
-                    >
-                      Sign in
-                    </Button>
-                  </Link>
-                  <Link to="/register">
-                    <Button className="btn custom-btn" variant="outline-none">
-                      Register
-                    </Button>
-                  </Link>
+                  {user?.email ? 
+                      <Button
+                        onClick={logOut}
+                        className="btn mx-2 custom-btn"
+                        variant="outline-none"
+                      >
+                        Logout
+                      </Button>
+                    :
+                    <Link to="/login">
+                      <Button
+                        className="btn mx-2 custom-btn"
+                        variant="outline-none"
+                      >
+                        Sign in
+                      </Button>
+                    </Link>
+                  }
+                  {user.email ? 
+                    
+                      <p>
+                        {user?.displayName}
+                      </p>
+                    
+                   : 
+                    <Link to="/register">
+                      <Button className="btn custom-btn" variant="outline-none">
+                        Register
+                      </Button>
+                    </Link>
+                  }
                 </div>
               </Nav>
             </Navbar.Collapse>

@@ -47,3 +47,7 @@ img.avatar {
 .container2 {
   padding: 16px;
 }
+
+.google-btn{
+  cursor: pointer;
+}

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './OurDoctors.css'
 
 const OurDoctors = () => {
@@ -26,7 +27,9 @@ const OurDoctors = () => {
               <h3>{doctor.title}</h3>
               <h6 className="text-primary">{doctor.department}</h6>
               <p>{doctor.role}</p>
-              <Button className="custom-btn">Book Now</Button>
+              <Link to={`/booking/${doctor.id}`}>
+                <Button className="custom-btn">Book Now</Button>
+              </Link>
             </div>
           ))}
         </div>

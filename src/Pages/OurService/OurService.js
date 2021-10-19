@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './OurService.css'
 
 const OurService = () => {
@@ -29,7 +30,9 @@ const OurService = () => {
                 <h5>{service.title}</h5>
                 <p>{service.shortdescription}</p>
               </div>
-              <Button className="btn custom-btn">Appointment</Button>
+              <Link to={`/booking/${service.id}`}>
+                <Button className="btn custom-btn">Appointment</Button>
+              </Link>
             </div>
           ))}
         </div>
