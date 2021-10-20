@@ -6,9 +6,9 @@ import './AboutSection.css'
 const AboutSection = () => {
     return (
       <div>
-        <div className="container d-flex justify-content-center align-items-center about-section">
+        <div className="container about-section">
           <div>
-            <img className="img-fluid w-75 mb-5" src={Aboutsection} alt="doctor" />
+            <img className="img-fluid mb-5" src={Aboutsection} alt="doctor" />
           </div>
           <div className="w-50 about-box">
             <h2>We Are Carenting A Medical Clinic</h2>

@@ -28,8 +28,8 @@ const WhyChooseUs = () => {
                 <div>
                   <h5>Emergency Service</h5>
                   <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia.
+                    Patients with the most severe emergencies receive immediate
+                    treatment. That is why some patients
                   </p>
                 </div>
               </div>
@@ -40,8 +40,8 @@ const WhyChooseUs = () => {
                 <div>
                   <h5>Qualified Doctors</h5>
                   <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia.
+                    Your Family Medical Centre. Welcome to Carenting. We take
+                    pride in offering the highest standard of medical care.
                   </p>
                 </div>
               </div>
@@ -52,8 +52,8 @@ const WhyChooseUs = () => {
                 <div>
                   <h5>Outdoors Checkup</h5>
                   <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia.
+                    Find the perfect doctor checkup outdoor stock photo. Huge
+                    collection, amazing choice,
                   </p>
                 </div>
               </div>
@@ -64,8 +64,8 @@ const WhyChooseUs = () => {
                 <div>
                   <h5>24 Hours Service</h5>
                   <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia.
+                    We never close. Our 24 Hour Call Center Helps You Deliver
+                    Professional Customer Service 24/7/365.
                   </p>
                 </div>
               </div>

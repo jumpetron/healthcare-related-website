@@ -4,8 +4,17 @@
     grid-gap: 30px;
 }
 
+.single-doctor{
+        margin: 0px 10px;
+    }
+
 @media only screen and (max-width: 600px) {
     .single-doctor{
         margin: 0px 95px;
+    }
+
+    .doctors-area{
+        display: flex;
+        flex-direction: column;
     }
 }

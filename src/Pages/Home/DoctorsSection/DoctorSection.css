@@ -1,9 +1,16 @@
+.doctor-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .doctor-section{
     margin: 70px 0px;
 }
 
 @media only screen and (max-width: 600px) {
-    .doctor-section{
-        
+    .doctor-container{
+        display: flex;
+        flex-direction: column;
     }
 }

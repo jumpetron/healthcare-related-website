@@ -21,7 +21,7 @@ const DoctorsSection = () => {
             paradisematic country
           </p>
         </div>
-        <div className="service-container container text-center">
+        <div className="doctor-container container text-center">
           {doctors.slice(0, 4).map((doctor) => (
             <Doctors key={doctor.id} doctor={doctor}></Doctors>
           ))}

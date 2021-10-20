@@ -1,5 +1,12 @@
 .about-section{
-    margin: 66px 0;
+    margin: 66px 218;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section img{
+    width: 75%;
 }
 
 @media only screen and (max-width: 600px) {
